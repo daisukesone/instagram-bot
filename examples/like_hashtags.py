@@ -22,5 +22,4 @@ args = parser.parse_args()
 bot = Bot()
 bot.login(username=args.u, password=args.p, proxy=args.proxy)
 
-for hashtag in args.hashtags:
-    bot.like_hashtag(hashtag)
+
